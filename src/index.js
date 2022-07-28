@@ -5,6 +5,9 @@ import App from './App';
 import { GitProvider } from "./context";
 import { Auth0Provider } from "@auth0/auth0-react";
 
+const key = "dev-y31-wfyv.us.auth0.com";
+const clientId = "Q1cNRarOvRu5feeFTRf7PVwcRdkr2E4f";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -18,6 +21,5 @@ root.render(
         <App />
       </GitProvider>
     </Auth0Provider>
-    
   </React.StrictMode>
 );
